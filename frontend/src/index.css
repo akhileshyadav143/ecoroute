@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html, body, #root { height: 100%; }
+body { @apply bg-moss-50 text-ink font-sans antialiased; }
+*:focus-visible { outline: 2px solid #2f6b50; outline-offset: 2px; }
